@@ -1,0 +1,15 @@
+Z:\nappi On My Mac\Developer\Boom\Boom\bin\Debug\Boom.exe.config
+Z:\nappi On My Mac\Developer\Boom\Boom\bin\Debug\Boom.exe
+Z:\nappi On My Mac\Developer\Boom\Boom\bin\Debug\Boom.pdb
+Z:\nappi On My Mac\Developer\Boom\Boom\obj\Debug\Boom.csprojResolveAssemblyReference.cache
+Z:\nappi On My Mac\Developer\Boom\Boom\obj\Debug\Boom.exe
+Z:\nappi On My Mac\Developer\Boom\Boom\obj\Debug\Boom.pdb
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\bin\Debug\Boom.exe.config
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\obj\Debug\Boom.exe
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\obj\Debug\Boom.pdb
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\bin\Debug\Boom.exe
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\bin\Debug\Boom.pdb
+C:\Users\Nappi.Nappi-PC\Desktop\Boom\Boom\obj\Debug\Boom.csprojResolveAssemblyReference.cache
+C:\Users\Nappi\Documents\GitHub\Boom\Boom\bin\Debug\Boom.exe.config
+C:\Users\Nappi\Documents\GitHub\Boom\Boom\obj\Debug\Boom.exe
+C:\Users\Nappi\Documents\GitHub\Boom\Boom\obj\Debug\Boom.pdb

@@ -1,0 +1,98 @@
+Jogo da Forca
+Versão 1.0
+
+Trabalho individual e substitui a nota N1
+Deverá ser colocado no Moodle, em uma área específica para entrega 
+de trabalho.
+
+Enviar até o dia 16/11/2013 as 23h59. Após este horário o aluno irá perder 2 pontos
+a cada dia de atraso no envio. Não poderá haver modificação após o envio.
+
+Enviar para o Moodle apenas o arquivo program.cs
+No começo do jogo exiba seu nome completo e RA.
+
+
+O usuário não irá cadastrar nada neste jogo. O sistema deverá ler um arquivo texto
+ao iniciar o programa. O novo padrão do arquivo é jogo.txt e ele deve ser
+colocado na mesma pasta que o executável do programa (normalmente na pasta Debug)
+
+Este arquivo irá conter todas as palavras e possíveis dícas utilizadas no 
+jogo da forca. O seu programa deve ser capaz de ler manipular até 100 
+palavras sendo que cada palavra pode ter até 10 dicas. Ou seja, não se 
+preocupe que você não terá que lidar com mais dados do que isso.
+
+O formato do arquivo é apresentado a seguir:
+
+JOGO.TXT
+
+P:Palavra
+D:Dica 1
+D:Dica 2
+D:Dica N
+P:Palavra
+D:Dica 1
+D:Dica 2
+D:Dica N
+
+
+Ex:
+
+P:Corinthians
+D:Time campeão todo ano
+D:O SPFC é freguês dele
+D:O time foi campeão em 2012 da libertadores.
+P:Palmeiras
+D:Não é carro de playboy, mas vive rebaixado
+D:Não tem estádio, mas acha que vai ter...
+D:Tem medo do Romarinho
+D:Sua principal camisa ter cor de verdura
+
+
+
+O seu jogo deve começar sorteando uma palavra e exibindo a primeira dica na tela.
+Por exemplo, a palavra "futebol" deve aparecer no vídeo no seguinte formato:
+
+
+_ _ _ _ _ _ _
+
+Dica: Esporte mais jogado no mundo.
+
+
+Então, o usuário irá digitar uma letra, que, se existir, deverá ser exibida 
+em vídeo no local correspondente. EX: caso o usuário digite a letra o:
+
+_ _ _ _ _ O _
+
+Dica: Esporte mais jogado no mundo.
+
+
+Para facilitar a vida do jogador, não considere maiúsculas e minúsculas.
+
+
+A cada letra errada, exiba no vídeo algum indicador de que o usuário
+está perdendo. Pode ser um boneco ou algo do tipo. Neste caso irei contar
+com a sua criatividade :)
+
+Você pode inclusive exibir imagens (!!!) no console. Como?
+http://stackoverflow.com/questions/15137449/c-sharp-console-application-how-to-draw-in-bmp-jpg-file-using-gdi
+
+
+Você irá precisar utilizar os comandos abaixo para posicionar o cursor
+em partes específicas da tela:
+Console.CursorLeft e   Console.CursorTop. Pesquise sobre eles para ver como
+funcionam.
+
+Caso o usuário pressione F2 no lugar de digitar uma letra, deve se exibir 
+a próxima dica. Neste caso o programa deverá se comportar como se o usuário
+tivesse errado uma letra. 
+Se ele só puder errar mais uma letra e ele pedir uma dica, ele automaticamente 
+perderá o jogo.
+
+Ao final do jogo, pergunte se ele deseja jogar novamente ou sair do jogo.
+
+Até aqui o trabalho vale até 8 pontos.
+
+Obs: quem implementar o tempo máximo de jogo, como explicado em aula,
+ganha mais 2 pontos.  O tempo máximo para um jogo  deverá ser definido por você,
+em segundos. Caso o usuário demore mais do que este tempo, ele 
+automaticamente perde o jogo. Vide exemplo de aula de como controlar o tempo.

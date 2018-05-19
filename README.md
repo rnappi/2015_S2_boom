@@ -1,2 +1,3 @@
-# 2015_S2_boom
-Jogo da forca - SouthPark
+# ftt-boom
+Jogo da forca - SouthPark em C#
+Algoritmos I (2015-S2)
